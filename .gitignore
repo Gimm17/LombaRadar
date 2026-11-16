@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Database
+data/
+*.db
+*.sqlite*
+*.session
+
+# Logs & Scratch
+logs/
+*.log
+claude --resume *.txt
+nul
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Playwright
+playwright-report/
+
+# Distribution
+dist/
+build/
+*.egg-info/
