@@ -44,3 +44,11 @@ playwright-report/
 dist/
 build/
 *.egg-info/
+
+# Security: ignore environment, cPanel, and secret files
+!.env.*.example
+cpanel.txt
+*cpanel*.txt
+*CPANEL*.txt
+*secret*.txt
+pwsupersecretcpanel.txt
